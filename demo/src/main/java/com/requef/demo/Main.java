@@ -1,15 +1,15 @@
-package com.requef.dirxty;
+package com.requef.demo;
 
-import com.requef.dirxty.lib.observable.Observable;
-import com.requef.dirxty.lib.observer.Observer;
-import com.requef.dirxty.lib.scheduler.Schedulers;
+import com.requef.dirxty.observable.Observable;
+import com.requef.dirxty.observer.Observer;
+import com.requef.dirxty.scheduler.Schedulers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.CountDownLatch;
 
-public class SimpleDemo {
-    private static final Logger log = LoggerFactory.getLogger(SimpleDemo.class);
+public class Main {
+    private static final Logger log = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) throws InterruptedException {
         try (var io = Schedulers.io();

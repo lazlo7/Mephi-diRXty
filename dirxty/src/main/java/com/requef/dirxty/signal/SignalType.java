@@ -1,4 +1,4 @@
-package com.requef.dirxty.lib.signal;
+package com.requef.dirxty.signal;
 
 public enum SignalType {
     NEXT,

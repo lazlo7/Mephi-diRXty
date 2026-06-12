@@ -1,4 +1,4 @@
-package com.requef.dirxty.lib.disposable;
+package com.requef.dirxty.disposable;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;

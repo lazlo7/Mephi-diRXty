@@ -1,7 +1,7 @@
-package com.requef.dirxty.lib.observable;
+package com.requef.dirxty.observable;
 
-import com.requef.dirxty.lib.observer.Observer;
-import com.requef.dirxty.lib.disposable.Disposable;
+import com.requef.dirxty.observer.Observer;
+import com.requef.dirxty.disposable.Disposable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

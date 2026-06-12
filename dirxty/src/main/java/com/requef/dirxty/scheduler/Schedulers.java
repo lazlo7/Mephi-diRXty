@@ -1,4 +1,4 @@
-package com.requef.dirxty.lib.scheduler;
+package com.requef.dirxty.scheduler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,6 +1,6 @@
-package com.requef.dirxty.lib.observable;
+package com.requef.dirxty.observable;
 
-import com.requef.dirxty.lib.disposable.Disposable;
+import com.requef.dirxty.disposable.Disposable;
 
 public interface ObservableEmitter<T> extends Disposable {
     void onNext(T item);

@@ -1,4 +1,4 @@
-package com.requef.dirxty.lib.scheduler;
+package com.requef.dirxty.scheduler;
 
 public interface Scheduler extends AutoCloseable {
     void execute(Runnable task);

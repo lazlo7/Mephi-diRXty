@@ -1,11 +1,11 @@
-package com.requef.dirxty.lib.observable;
+package com.requef.dirxty.observable;
 
-import com.requef.dirxty.lib.observer.Observer;
-import com.requef.dirxty.lib.observer.SafeObserver;
-import com.requef.dirxty.lib.scheduler.Scheduler;
-import com.requef.dirxty.lib.disposable.CompositeDisposable;
-import com.requef.dirxty.lib.disposable.Disposable;
-import com.requef.dirxty.lib.signal.Signal;
+import com.requef.dirxty.observer.Observer;
+import com.requef.dirxty.observer.SafeObserver;
+import com.requef.dirxty.scheduler.Scheduler;
+import com.requef.dirxty.disposable.CompositeDisposable;
+import com.requef.dirxty.disposable.Disposable;
+import com.requef.dirxty.signal.Signal;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicBoolean;

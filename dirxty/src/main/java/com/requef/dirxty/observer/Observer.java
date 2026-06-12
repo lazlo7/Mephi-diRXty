@@ -1,4 +1,4 @@
-package com.requef.dirxty.lib.observer;
+package com.requef.dirxty.observer;
 
 public interface Observer<T> {
     void onNext(T item);

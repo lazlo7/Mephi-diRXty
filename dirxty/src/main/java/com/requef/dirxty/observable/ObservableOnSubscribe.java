@@ -1,4 +1,4 @@
-package com.requef.dirxty.lib.observable;
+package com.requef.dirxty.observable;
 
 @FunctionalInterface
 public interface ObservableOnSubscribe<T> {

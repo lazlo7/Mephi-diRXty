@@ -1,2 +1,10 @@
-rootProject.name = "diRXty"
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
 
+rootProject.name = "diRXty"
+include("dirxty")
+include("demo")

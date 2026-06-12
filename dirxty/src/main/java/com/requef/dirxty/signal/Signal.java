@@ -1,4 +1,4 @@
-package com.requef.dirxty.lib.signal;
+package com.requef.dirxty.signal;
 
 public record Signal<T>(SignalType type, T item, Throwable error) {
     public static <T> Signal<T> next(T item) {

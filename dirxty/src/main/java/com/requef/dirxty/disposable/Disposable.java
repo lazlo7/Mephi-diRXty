@@ -1,4 +1,4 @@
-package com.requef.dirxty.lib.disposable;
+package com.requef.dirxty.disposable;
 
 public interface Disposable {
     void dispose();
